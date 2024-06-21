@@ -4,7 +4,7 @@ import sys
 import signal
 
 
-# Initialize variables
+#Initialize variables
 total_size = 0
 status_codes = {str(code): 0 for code in [200, 301, 400, 401, 403, 404, 405, 500]}
 line_count = 0
