@@ -1,8 +1,9 @@
 #!/usr/bin/python3
 """ Making Change """
+from typing import List
 
 
-def makeChange(coins, total) -> int:
+def makeChange(coins: list, total: int) -> int:
     """ Initialize an array to store minimum coins needed for each value """
     dp = [float('inf')] * (total + 1)
     dp[0] = 0  # Base case: 0 coins needed for value 0
