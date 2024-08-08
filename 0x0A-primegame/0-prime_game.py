@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Prime Game"""
 
+
 def primeNumbers(n):
     """Returns a list of prime numbers up to n"""
     primeNos = []
